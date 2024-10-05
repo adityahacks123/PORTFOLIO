@@ -43,7 +43,7 @@
     
 }
 .right-container{
-    background: #3877ff;
+    background:linear-gradient( -45deg,#3877ff,#262525);
     width: 30%;
 }
 .icons .fa-brands{
@@ -69,3 +69,62 @@
     font-size: 4rem;
     color: #3877ff;
 }
+.content #detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.9rem;
+}
+.btn-container button{
+    border: .1rem solid #3698d1;
+    font-size: 1.1rem;
+    paddding: .8rem 1.5rem;
+    border-radius:.5rem;
+    cursor: pointer;
+    transition: .5s ease;
+
+}
+   button:nth-child(1){
+    background: #3698d1;
+   }
+   button:nth-child(2){
+    background: transparent;
+    color:#3698d1;
+    margin-left: 2rem;
+   }
+   button:nth-child(1):hover{
+    background: transparent;
+    color: #3698d1;
+   }
+   button:nth-child(2):hover{
+    background: #3698d1;
+    color: #262525;
+   }
+   .icons .fa-brands:hover {
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .design .circle{
+     aspect-ratio: 1;
+     position: absolute;
+     border-radius: 50%;
+     top: 60%;
+     left: 70%;
+     transform: translate(-50% ,-50%);
+ 
+    }
+    .circle:nth-child(1){
+     background:linear-gradient(90deg, transparent 50%, #262525 50%);
+     width: 28rem;
+    }
+    .circle:nth-child(2){
+     background: #fff;
+     width:20rem;
+     background-image: url("image/pexels-cody-berg-463684.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+    }
+
