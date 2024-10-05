@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-*{                                    /*universal selector*/
+{                                    
     margin:0;                 
     padding:0;
      box-sizing: border-box ;
@@ -124,7 +124,7 @@
     .circle:nth-child(2){
      background: #fff;
      width:20rem;
-     background-image: url("image/pexels-cody-berg-463684.jpg");
+     background-image: url("image/aditya.jpg.jpeg");
      background-size: 100%;
      background-repeat: no-repeat;
      box-shadow: 0 0 3rem #fff ;
