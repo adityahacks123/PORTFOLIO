@@ -33,13 +33,39 @@
 }
 .left-container, .right-container{
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .left-container{
     background: #262525;
     width: 70%;
+    padding-left: 3rem;
     
 }
 .right-container{
     background: #3877ff;
     width: 30%;
+}
+.icons .fa-brands{
+    color: #bbb;
+    font-size: 2rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.content{
+    margin-left: 4rem;
+}
+.content h2{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.content h1{
+    font-size: 4rem;
+    color: #3877ff;
 }
